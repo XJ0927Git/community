@@ -11,7 +11,10 @@ git commit -m "描述信息" <br>
 此时如果修改了文件 <br>
 再执行一次:<br>
 git add . <br>
-git commit --amend --no-edit 表示进行追加<br>
+git commit --amend --no-edit 表示在刚刚提交的基础上进行追加<br>
+
+更新项目：<br>
+git push origin master
 
 ## 工具
 https://git-scm.com/download/win
